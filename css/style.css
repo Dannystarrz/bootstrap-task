@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Carattere', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+
+.last-sec{
+    background-color: rgb(80, 75, 75);
+}
