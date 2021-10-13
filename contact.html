@@ -9,48 +9,69 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="bg-light">
-    <nav class="container-fluid d-flex navbar bg-light">
-        <a href="index.html"><img class="img-fluid" src="./image/kodecamp-logo 1.png" alt="logo"></a>
-        <ul class="list-unstyled d-flex">
-            <li><a class="text-decoration-none text-dark px-5" href="About us.html">About us</a></li>
-            <li><a class="text-decoration-none text-dark px-5" href="services.html">Services</a></li>
-            <li><a class="text-decoration-none text-dark px-5" href="contact.html">Contact us</a></li>
-        </ul>
-        <button class="btn btn-outline-dark btn-lg bg-light">Sign in</button>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light w-auto p-3">
+        <div class="container-fluid">
+          <a  class="navbar-brand" href="index.html"><img class="img-fluid" src="./image/kodecamp-logo 1.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About us.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+           
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-outline-success" type="submit">Sign In</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
-    <section class="container-fluid py-5 vh-100 d-flex flex-column justify-center">
-        <h3 class="text-center py-5">Contact us</h3>
-        <h5 class="text-center">still have questions about our training programme?  drop us a message below.</h5>
-        <div class="row mb-5 mx-auto ">
+    <section class="container-fluid py-sm-2 vh-75 d-flex flex-column p-3">
+        <h3 class="text-center w-auto">Contact us</h3>
+        <h5 class="text-center w-auto p-3">still have questions about our training programme?  drop us a message below.</h5>
+        <div class="row mb-sm-1">
             <div class="">
                 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="enter your question">
             </div>
         </div>
-        <div class="d-grid gap-2 d-md-block mx-auto">
-            <button class="btn text-light btn-base bg-primary my-3">send message</button>
+        <div class="d-grid gap-2 mx-sm-1">
+            <button class="btn text-light btn-md w-75 bg-primary my-3 m-auto">send message</button>
         </div>
     </section>
 
-    <section class="container-fluid last-sec">
-        <div class="row h-25">
-            <div class="col-12 d-flex pt-5 pb-5 .bg-dark">
-                <div class="col-4 d-flex ">
-                    <a class="text-decoration-none" href="services.html"><p class="text-light">Services</p></a> 
-                    <a class="text-decoration-none" href="About us.html"><p class="px-5 text-light">About us</p></a> 
-                    <a class="text-decoration-none" href="contact.html"><p class="text-light">Contact us</p></a> 
-                </div>
-                <div class="col-4">
-                    <a class="text-decoration-none" href=""><p class="text-light mx-4">bootstrap-task &copy 2021</p></a> 
-                </div>
-                <div class="col-4 d-flex justify-content-center">
-                    <a class="text-decoration-none" href=""><p class="text-light">Privacy</p></a>
-                    <a class="text-decoration-none" href=""><p class="text-light px-5">Settings</p></a>  
-                </div>
+    <section class="container-fluid last-sec vh-50">
+      <div class="row">
+        <div class="col-12 d-flex .bg-dark mt-2 p-0 justify-content-center justify-md-content-center">
+            <div class="col-3 col-md-4 flex-sm-column-reverse ">
+                <a class="text-decoration-none" href="services.html"><p class="text-light text-md-center text-center fs-sm-6 ">Services</p></a> 
+                <a class="text-decoration-none" href="About us.html"><p class="text-light text-md-center text-center fs-sm-6 ">About us</p></a> 
+                <a class="text-decoration-none" href="contact.html"><p class="text-light text-md-center text-center fs-sm-6 ">Contact us</p></a> 
+            </div>
+            <div class="col-5 col-md-4">
+                <a class="text-decoration-none" href=""><p class="text-light text-center fs-sm-6 mt-5 mx-2">bootstrap-task &copy 2021</p></a> 
+            </div>
+            <div class="col-4 col-md-4 justify-sm-content-center flex-sm-column-reverse">
+                <a class="text-decoration-none" href=""><p class="text-light text-md-center text-center fs-sm-6 ">Privacy</p></a>
+                <a class="text-decoration-none" href=""><p class="text-light text-md-center text-center fs-sm-6 ">Settings</p></a>  
             </div>
         </div>
-
-    </section>
+    </div>
+  </section>  
 
     <script src="./script/bootstrap.min.js"></script>
 </body>
